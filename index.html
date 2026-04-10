@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Vintage Run - Explore classic vintage cars and their specifications"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>The Vintage Run - Classic Car Collection</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">🏎️ The Vintage Run </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#models" class="nav__link">Models</a>
+            </li>
+            <li>
+              <a href="#info" class="nav__link">Information</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home grid section" id="home">
+        <img src="/img/home-bg.jpg" alt="image" class="home__bg" />
+        <div class="home__gradient"></div>
+        <div class="home__data">
+          <h3 class="home__subtitle">Choose your vintage</h3>
+          <h1 class="home__title">The Vintage Run</h1>
+        </div>
+        <div class="home__swiper swiper">
+          <div class="swiper-wrapper">
+            <article class="home__article swiper-slide">
+              <img src="/img/home-car-1.png" alt="car-1" />
+            </article>
+            <article class="home__article swiper-slide">
+              <img src="/img/home-car-2.png" alt="car-2" />
+            </article>
+            <article class="home__article swiper-slide">
+              <img src="/img/home-car-3.png" alt="car-3" />
+            </article>
+            <article class="home__article swiper-slide">
+              <img src="/img/home-car-4.png" alt="car-4" />
+            </article>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <a href="#about" class="home__button">
+          <span>START</span>
+          <i class="ri-arrow-down-s-line"></i>
+        </a>
+      </section>
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Designed to <br />
+              <span>GO BEYOND</span> <br />
+              PERFORMANCE
+            </h2>
+            <p class="about__description">
+              Timeless design meets mechanical soul — every classic car in The
+              Vintage Run tells a story of bold innovation and elegance.These
+              icons weren't just built — they were dreamed into existence.At The
+              Vintage Run, we don't just showcase classics — we honor the legacy
+              that shaped generations of speed, elegance, and engineering.
+            </p>
+
+            <a href="#" class="button button__ghost">
+              DETAILS <i class="ri-arrow-right-s-line"></i>
+            </a>
+          </div>
+          <div class="about__video">
+            <video
+              src="/img/about-vid.mp4"
+              autoplay
+              loop
+              muted
+              class="about__file"
+            ></video>
+          </div>
+        </div>
+      </section>
+      <section class="models section" id="models">
+        <h2 class="section__title">
+          INSPIRED BY <br />
+          COLORS OF NATURE
+        </h2>
+        <div class="models__container container grid">
+          <article class="models__card">
+            <img src="/img/model-car-1.jpg" alt="image" class="models__img" />
+            <div class="models__gradient"></div>
+            <div class="models__data">
+              <h3 class="models__name">Porsche 901</h3>
+              <span class="models__info">210 km/h</span>
+            </div>
+          </article>
+          <article class="models__card">
+            <img src="/img/model-car-2.jpg" alt="image" class="models__img" />
+            <div class="models__gradient"></div>
+            <div class="models__data">
+              <h3 class="models__name">Lamborghini Miura P400 SV</h3>
+              <span class="models__info">290 km/h</span>
+            </div>
+          </article>
+          <article class="models__card">
+            <img src="/img/model-car-3.jpg" alt="image" class="models__img" />
+            <div class="models__gradient"></div>
+            <div class="models__data">
+              <h3 class="models__name">Chevrolet Corvette (C2)</h3>
+              <span class="models__info">241 km/h</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="info section" id="info">
+        <span class="section__subtitle">A TIMELESS CLASSIC</span>
+        <div class="info__comparison-container container grid">
+          <div class="info__card">
+            <h3 class="info__card-title">911 Turbo S (992)</h3>
+            <div class="info__content">
+              <img
+                src="/img/info-car-1.png"
+                alt="Porsche 911"
+                class="info__img"
+              />
+            </div>
+            <div class="info__data">
+              <div class="info__group">
+                <h3>POWER (KW)</h3>
+                <p>650 CV (478 kW) <br />6.750 rpm</p>
+              </div>
+              <div class="info__group">
+                <h3>MAX. SPEED</h3>
+                <p>330 km/h</p>
+              </div>
+              <div class="info__group">
+                <h3>0-100 km/h</h3>
+                <p>2.8 s</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info__card">
+            <h3 class="info__card-title">1967 Volkswagen Beetle 1500</h3>
+            <div class="info__content">
+              <img
+                src="/img/info-car-2.png"
+                alt="Volkswagen Beetle"
+                class="info__img"
+              />
+            </div>
+            <div class="info__data">
+              <div class="info__group">
+                <h3>POWER (KW)</h3>
+                <p>44 CV (32 kW) <br />4.000 rpm</p>
+              </div>
+              <div class="info__group">
+                <h3>MAX. SPEED</h3>
+                <p>125 km/h</p>
+              </div>
+              <div class="info__group">
+                <h3>0-100 km/h</h3>
+                <p>23 s</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title contact__title">
+              SUBSCRIBE TO GET <br />
+              YOUR DREAM CAR
+            </h2>
+            <form action="" class="contact__form grid">
+              <div class="contact__inputs grid">
+                <div class="contact__box">
+                  <label for="name" class="contact__label">Names</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter names"
+                    class="contact__input"
+                  />
+                </div>
+                <div class="contact__box">
+                  <label for="email" class="contact__label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter email"
+                    class="contact__input"
+                  />
+                </div>
+              </div>
+              <button class="button contact__button">
+                SEND EMAIL <i class="ri-arrow-right-s-line"></i>
+              </button>
+            </form>
+          </div>
+          <img src="/img/contact-car.png" alt="image" class="contact__img" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="#" class="footer__logo">Fuel & Fury</a>
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Privacy & Legal</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Contact</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Locations</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">News</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Forums</a>
+          </li>
+        </ul>
+        <div class="footer__social">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footer__social-links"
+          >
+            <i class="ri-facebook-circle-line"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer__social-links"
+          >
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            class="footer__social-links"
+          >
+            <i class="ri-twitter-x-line"></i>
+          </a>
+        </div>
+      </div>
+      <span class="footer__copy">
+        All Rights Reserved By Ani Nishnianidze
+      </span>
+    </footer>
+    <div class="car-modal" id="car-details-modal">
+      <div class="car-modal__content">
+        <span class="car-modal__close" id="car-modal-close">&times;</span>
+        <h2 class="car-modal__title"></h2>
+        <div class="car-modal__image-container"></div>
+        <div class="car-modal__details">
+          <p><strong>Year:</strong> <span class="car-modal__year"></span></p>
+          <p>
+            <strong>Engine:</strong> <span class="car-modal__engine"></span>
+          </p>
+          <p>
+            <strong>Horsepower:</strong>
+            <span class="car-modal__horsepower"></span>
+          </p>
+          <p>
+            <strong>Top Speed:</strong>
+            <span class="car-modal__top-speed"></span>
+          </p>
+          <p>
+            <strong>0-100 km/h:</strong>
+            <span class="car-modal__acceleration"></span>
+          </p>
+          <p class="car-modal__description"></p>
+        </div>
+      </div>
+    </div>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
